@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<facturas xmlns="http://lmsgi.iesvirgendelcarmen.com"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://lmsgi.iesvirgendelcarmen.com te01ej04.xsd">
+    
+    <factura numero_factura="A30091-6302" fecha_emision="2016-02-17">
+        <datos_emisor cif="A12345678" denominacion="PC Computer Soluciones, S.A">
+            <direccion>
+                <ciudad>Martos</ciudad>
+                <provincia>Jaén</provincia>
+                <codigo_postal>23600</codigo_postal>
+                <calle>Avenida Andalucía, 22, 2ºD</calle>
+            </direccion>
+            <telefono>953100555</telefono>
+            <fax>953100555</fax>
+        </datos_emisor>
+        <datos_cliente cif="C80000087" denominacion="Alberto García Martín">
+            <direccion>
+                <ciudad>Jaén</ciudad>
+                <provincia>Jaén</provincia>
+                <codigo_postal>23005</codigo_postal>
+                <calle>Paseo de España, 45, Bajo</calle>
+            </direccion>
+            <telefono>953000000</telefono>
+            <fax>953000000</fax>
+        </datos_cliente>
+        <datos_pedido>
+            <producto referencia="MII93000F/8" descripcion="MICRO PENTIUM IV 3000MHZ FB800" cantidad="3" precio_unitario="230" moneda="euro" iva="16.0" descuento="0" />
+            <producto referencia="MB8QDIP4" descripcion="PLACA BASE QDI P4" cantidad="1" precio_unitario="180" moneda="euro" iva="16.0" descuento="10" />   
+        </datos_pedido>
+    </factura>
+</facturas>
